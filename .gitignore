@@ -1,0 +1,24 @@
+# Gradle operational files
+.gradle/
+build/
+
+# Local configuration files
+local.properties
+.gradle-test-kit/
+
+# If you use the Gradle Wrapper, DO NOT ignore these files:
+# !gradle-wrapper.jar
+# !gradlew
+# !gradlew.bat
+
+# IDE specific (IntelliJ IDEA)
+.idea/
+*.iml
+*.iws
+out/
+
+# IDE specific (Eclipse)
+.settings/
+.classpath
+.project
+bin/
