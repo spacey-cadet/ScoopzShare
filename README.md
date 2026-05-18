@@ -19,7 +19,7 @@ A minimal Android `Activity` that hooks into the system share sheet. When you sh
 
 This activity requires **All Files Access** (`MANAGE_EXTERNAL_STORAGE`), which allows writing to `/sdcard/Download/`.
 
-On first launch, if the permission is not granted, the app automatically opens the system settings page for you to enable it. Once enabled, sharing works silently with a ✅ toast confirmation.
+On first launch, if the permission is not granted, the app automatically opens the system settings page for you to enable it. Once enabled, sharing works silently with a toast confirmation.
 
 > **Why this permission?** Standard `WRITE_EXTERNAL_STORAGE` is restricted on Android 11+. All Files Access is required to write to shared storage paths like `/sdcard/Download`.
 
